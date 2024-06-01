@@ -6,11 +6,10 @@ import clarusway.utilities.Driver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import javax.swing.*;
+public class C04_DragAndDropCapitals {
 
-public class DragAndDropCapitals {
     @Test
-    void test1() {
+    void test1(){
 
         DHTMLPage dhtmlPage = new DHTMLPage();
 
