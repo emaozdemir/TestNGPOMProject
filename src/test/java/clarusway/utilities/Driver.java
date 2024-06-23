@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
-public class Driver {
+public class Driver { //driveri private oldugu için diğer classlardan bu drivere anca class name ile ulasabiliriz
 
     private static WebDriver driver;
 

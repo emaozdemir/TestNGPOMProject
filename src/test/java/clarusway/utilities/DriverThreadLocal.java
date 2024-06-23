@@ -2,6 +2,7 @@ package clarusway.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import java.time.Duration;
 
@@ -12,7 +13,7 @@ public class DriverThreadLocal {
 
     // WebDriver örneğini oluşturur ve ThreadLocal değişkenine atanır
     public static void setDriver() {
-        driver.set(new ChromeDriver()); // Yeni bir ChromeDriver örneği oluşturur ve ThreadLocal değişkenine atar
+        driver.set(new EdgeDriver()); // Yeni bir ChromeDriver örneği oluşturur ve ThreadLocal değişkenine atar// new ChromeDriver() da yapabiriliz.
     }
 
     // Mevcut thread'e ait WebDriver örneğini döndürür

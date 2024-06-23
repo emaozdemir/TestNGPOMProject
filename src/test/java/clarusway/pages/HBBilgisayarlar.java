@@ -12,7 +12,6 @@ import java.util.List;
 public class HBBilgisayarlar {
 
     public HBBilgisayarlar() {
-
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
